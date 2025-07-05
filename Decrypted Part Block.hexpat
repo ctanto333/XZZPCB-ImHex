@@ -96,7 +96,7 @@ struct sub_type_09 {
     u32 x;
     u32 y;
     u32 un2; // Seen: 0
-    u32 un3; // Seen: 0,2700000
+    u32 pin_rotation; // Seen: 0,2700000
     u32 pin_name_size;
     char pin_name[pin_name_size];
     u32 height; // Don't know if radius or diameter (if circle) / from center or overall (if rectangle)
