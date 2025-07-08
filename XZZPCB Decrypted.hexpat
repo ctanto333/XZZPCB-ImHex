@@ -212,8 +212,8 @@ struct type_07 {
     padding[4]; // scale maybe
     u8 flag1; // all 1
     u8 flag2; // all 0
-    u32 pad_size_length;
-    char pad_size[pad_size_length];
+    u32 footprint_size_length;
+    char footprint_size[footprint_size_length];
     
     part_sub_type_06 subtype06[while($[$] == 0x06)];
     part_sub_type_05 subtype05[while($[$] == 0x05)];
